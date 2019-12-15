@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Nombre" />
+
+    <EditText
+        android:id="@+id/edtTxtNom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Name" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Apellido" />
+
+    <EditText
+        android:id="@+id/edtTxtAp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Name" />
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RadioButton
+            android:id="@+id/rdBtnMas"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Masculino" />
+
+        <RadioButton
+            android:id="@+id/rdBtnFem"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Femenino" />
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/btnGuardar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="GUARDAR"
+        android:onClick="onClick"/>
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Datos capturados" />
+
+    <TextView
+        android:id="@+id/txtVwDatos"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+</LinearLayout>
